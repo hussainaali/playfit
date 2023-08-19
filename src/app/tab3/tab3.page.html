@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Playfit Academey
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <!-- collapse="condense" -->
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="medium">Playfit Academey</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <ion-row class="ion-justify-content-center ion-padding-vertical">
+    <ion-img
+      src="../../assets/icon/icon.png"
+      class="text-center"
+      style="width: 200px; height:200px;"
+      alt="The Wisconsin State Capitol building in Madison, WI at night"
+    ></ion-img>
+  </ion-row>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  
+  
+  <ion-row>
+    <ion-item>
+      <ion-label class="ion-text-wrap">
+        PlayFit Sports Academy, based in Bahrain, is a premier institution dedicated to fostering athletic talent across various sports disciplines.<br><br>With a commitment to excellence and a passion for nurturing young athletes, PlayFit offers a transformative experience for those seeking to excel in their chosen sport.<br><br>Equipped with state-of-the-art facilities and a team of highly skilled coaches, the academy provides a dynamic environment for athletes to develop their skills, enhance their physical fitness, and cultivate a winning mindset.<br><br>PlayFit Sports Academy in Bahrain is the ideal destination for aspiring athletes looking to unlock their full potential and achieve success in the world of sports.
+      </ion-label>
+    </ion-item>
+  </ion-row>
+  
+  <ion-row style="margin-top: 10px">
+    <ion-col>
+
+      <ion-accordion-group>
+        <ion-accordion value="first">
+          <ion-item slot="header" color="light">
+            <ion-label>Our Values</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            To create a sense of belonging and instill loyalty to Kingdom of Bahrain
+          </div>
+        </ion-accordion>
+        <ion-accordion value="second">
+          <ion-item slot="header" color="light">
+            <ion-label>Our Vision</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            Train the next generation of professional football players
+          </div>
+        </ion-accordion>
+        <ion-accordion value="third">
+          <ion-item slot="header" color="light">
+            <ion-label>Our Mission</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            * Discover young talents from an early age and utilize best practices and state of the art schedules and techniques.<br><br>
+            * Encourage young players to think professionally.<br><br>
+            * Have a vital role in developing and growing the sports industry and contribute to professional football clubs and the national team.<br><br>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+    
+    </ion-col>
+  </ion-row>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
