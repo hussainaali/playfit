@@ -1,0 +1,8 @@
+{
+  "name": "Playfit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "c0b432b4"
+}
