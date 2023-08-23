@@ -1,0 +1,24 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-menu-button color="danger"></ion-menu-button>
+  </ion-buttons>
+
+  <ion-title color="danger" class="main-b-header6">{{ pageTitle }}</ion-title>
+
+  <ion-buttons slot="end">
+
+    <ion-button class="badge-button" routerLink="/fire-profile" routerDirection="forward">
+      <ion-icon name="person-circle-outline" color="danger">
+      </ion-icon>
+    </ion-button>
+
+  </ion-buttons>
+
+  <ion-buttons slot="end">
+    <ion-button class="badge-button" routerLink="/food-cart" routerDirection="forward">
+      <ion-icon name="basket-outline" color="danger">
+      </ion-icon>
+      <ion-badge class="badge-one" color="danger" *ngIf="false">{{ cart.length }}</ion-badge>
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
